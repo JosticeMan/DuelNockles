@@ -149,7 +149,7 @@ public class JustinSunny extends Contestant {
 		//OptimizedQuickSort(mostlySorted, 0, mostlySorted.length - 1);
 		insertionSortR(mostlySorted); //2-6ms
 		int halfWayMarker = (int) mostlySorted.length/2 - 1;
-		return (mostlySorted.length % 2 == 0)?((mostlySorted[halfWayMarker] + mostlySorted[halfWayMarker + 1])/2):mostlySorted[halfWayMarker];
+		return (mostlySorted.length % 2 == 0)?((double) (mostlySorted[halfWayMarker] + mostlySorted[halfWayMarker + 1]))/2:mostlySorted[halfWayMarker];
 	}
 
 	//WORKS
